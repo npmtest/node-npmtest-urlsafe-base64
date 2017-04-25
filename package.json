@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [urlsafe-base64 (v1.0.0)](https://github.com/RGBboy/urlsafe-base64)  [![npm package](https://img.shields.io/npm/v/npmtest-urlsafe-base64.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-urlsafe-base64) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-urlsafe-base64.svg)](https://travis-ci.org/npmtest/node-npmtest-urlsafe-base64)",
+    "description": "#### basic test coverage for  [urlsafe-base64 (v1.0.0)](https://github.com/RGBboy/urlsafe-base64)  [![npm package](https://img.shields.io/npm/v/npmtest-urlsafe-base64.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-urlsafe-base64) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-urlsafe-base64.svg)](https://travis-ci.org/npmtest/node-npmtest-urlsafe-base64)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "urlsafe-base64": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "2017.4.25"
 }
